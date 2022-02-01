@@ -30,7 +30,13 @@ public class MyGameOfCraps {
     /**
      * Play selected number of game of craps
      * print details then ask question on how many games you'd like to play
-     */
+     * scan next entered number and set value numberOfGames to this
+     * initiate counter controlled loop with counter i and cap numberOfGames with 1 increment
+     * within this for loop call playGame i -> numberOfGames times to play craps numberOfGames times
+     * 
+     * after games have been played numberOfGames times print question of whether an additional game is required
+     * scan input string (Y/N)
+    */
     public static void main( String[] args ) {     
         Scanner keyboard = new Scanner(System.in);
 
